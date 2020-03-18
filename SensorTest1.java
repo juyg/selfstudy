@@ -5,7 +5,7 @@ import android.hardware.Sensor;
 import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
 import android.hardware.SensorManager;
-import android.os.Bundle;
+import android.os.Bundle1;
 import android.widget.TextView;
 
 public class SensorTest2 extends Activity implements SensorEventListener {
@@ -28,7 +28,7 @@ public class SensorTest2 extends Activity implements SensorEventListener {
 				SensorManager.SENSOR_DELAY_UI);
 	}
 
-	protected void onPause() {
+	protected void onPause1() {
 		super.onPause();
 		mSensorManager.unregisterListener(this);
 	}
